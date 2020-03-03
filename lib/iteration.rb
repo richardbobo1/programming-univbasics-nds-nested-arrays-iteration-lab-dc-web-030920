@@ -65,10 +65,23 @@ array_3 = [[86262, 58115], [22558, 97709], [66236, 28056], [25992, 81375], [1124
 
 def total_even_pairs(src)
   
+  total = 0 
+  row_index = 0 
   
+  while row_index < src.count do 
+    element_index = 0 
+    a = src[row_index][0] % 2 
+    b = src[row_index][1] % 2 
   
-  a = src[row_index][0] % 2 
-  b = 
+    if a + b = 0 
+      total +=
+      src[row_index][element_index]
+      element_index += 1 
+    end
+     row_index += 1
+   end
+   total 
+ 
   
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # if both numbers in the pair are even, then add both those numbers to the
